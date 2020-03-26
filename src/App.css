@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: black;
+}
+
+ul {
+  display: flex;
+
+}
+
+li {
+  flex-grow: 1;
+
+
+}
+
+a {
+  display: block;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 4px solid black;
+}
+
+a:hover {
+  color: yellow;
+  border-bottom: 4px solid yellow;
+}
+
+section {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.home_selected {
+  border-bottom-color: purple;
+}
+
+.news_selected {
+  border-bottom-color: blue;
+}
+
+.contact_selected {
+  border-bottom-color: green;
+}
