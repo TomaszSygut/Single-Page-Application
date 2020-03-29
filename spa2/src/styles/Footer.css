@@ -1,0 +1,17 @@
+footer {
+    color: white;
+    background-color: black;
+
+}
+
+footer span {
+    color: red;
+
+}
+
+footer p {
+    margin-top: 10px;
+    font-size: 14px;
+    display: inline-block;
+    margin-right: 60px;
+}
